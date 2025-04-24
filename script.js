@@ -1,19 +1,54 @@
 const questionsDB = {
     "Verbal Reasoning": [
         {
-            question: "What is 5 + 7?",
-            options: ["10", "11", "12", "13"],
-            answer: "12"
+            question: "Which word does not belong to the group?",
+            options: ["Inch", "Kilogram", " Centimeter", " Yard"],
+            answer: "Kilogram"
         },
         {
-            question: "What is the square root of 49?",
-            options: ["5", "6", "7", "8"],
-            answer: "7"
+            question: "Find the odd one out.",
+            options: ["Apple", "Apple", "Carrot", " Banana"],
+            answer: "Carrot"
         },
         {
-            question: "What is 15 ÷ 3?",
-            options: ["4", "5", "6", "7"],
-            answer: "5"
+            question: "If in a certain code, 'ROAD' is written as 'URDG', how is 'RAIL' written in that code?",
+            options: ["UXLO", "UXNL", "UXMJ", "UXMO"],
+            answer: "UXMO"
+        },
+        {
+            question: "Complete the analogy: Doctor : Hospital :: Teacher : ?",
+            options: ["Class", "School", "Book", "Student"],
+            answer: "School"
+        },
+        {
+            question: "Which one is different from the rest?",
+            options: ["Book", "Paper", "Pen", "Sharpener"],
+            answer: "Paper"
+        },
+        {
+            question: "Which of the following is a synonym of 'Abundant'?",
+            options: ["Rare", "Plentiful", "Short", "Empty"],
+            answer: "Plentiful"
+        },
+        {
+            question: "What comes next in the series? Z,X,V,T,?",
+            options: ["P", "S", "R", "P"],
+            answer: "R"
+        },
+        {
+            question: "Choose the word most similar in meaning to 'Reluctant'.",
+            options: ["Willing", "Hesitant", "Cheerful", "Eager"],
+            answer: "Hesitant"
+        },
+        {
+            question: "Which pair of words is related in the same way as 'Eye : See'??",
+            options: ["Nose : Hear", "Tongue : Taste", "Ear : Smell", "Hand : Write"],
+            answer: "Tongue : Taste"
+        },
+        {
+            question: "Choose the word which is the exact opposite of 'Optimistic'.",
+            options: ["Realistic", "Idealistic", "Pessimistic", "Fantastic"],
+            answer: "Pessimistic"
         }
     ],
     "General Knowledge": [
@@ -26,18 +61,98 @@ const questionsDB = {
             question: "Which planet is known as the Red Planet?",
             options: ["Earth", "Mars", "Jupiter", "Venus"],
             answer: "Mars"
+        },
+        {
+            question: "What is the capital city of Australia?",
+            options: ["Sydney", "Melbourne", "Canberra", "Perth"],
+            answer: "Canberra"
+        },
+        {
+            question: "Who wrote the play Romeo and Juliet?",
+            options: ["Charles Dickens", "William Shakespare", "Jane Austen", "George Bernard Shaw"],
+            answer: "William Shakespare"
+        },
+        {
+            question: "In which year did World War II end?",
+            options: ["1942", "1945", "1939", "1950"],
+            answer: "1945"
+        },
+        {
+            question: "What is the longest river in the world?",
+            options: ["Amazon", "Yangtze", "Nile", "Mississippi"],
+            answer: "Nile"
+        },
+        {
+            question: "Who is known as the 'Father of Computers'?",
+            options: ["Alen Turing", "Charles Babbage", "Tim Berners-Lee", "Venus"],
+            answer: "Charles Babbage"
+        },
+        {
+            question: "Which country is famous for the Eiffel Tower?",
+            options: ["Italy", "Spain", "Germany", "France"],
+            answer: "France"
+        },
+        {
+            question: "How many continents are there in the world?",
+            options: ["5", "6", "7", "8"],
+            answer: "7"
+        },
+        {
+            question: "What gas do plants absorb from the atmosphere?",
+            options: ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+            answer: "Carbon Dioxide"
         }
     ],
     "Aptitude": [
         {
-            question: "Choose the correct spelling:",
-            options: ["Recieve", "Receive", "Recive", "Receeve"],
-            answer: "Receive"
+            question: "What will be the next number in the series: 2, 4, 8, 16, ?",
+            options: ["18", "20", "32", "24"],
+            answer: "32"
         },
         {
-            question: "What is the synonym of 'Happy'?",
-            options: ["Sad", "Angry", "Joyful", "Dark"],
-            answer: "Joyful"
+            question: "A man buys a watch for $400 and sells it for $500. What is his profit percentage?",
+            options: ["10%", "20%", "25%", "30%"],
+            answer: "25%"
+        },
+        {
+            question: "If 12 men can complete a work in 6 days, how many men are required to complete the same work in 4 days?",
+            options: ["8", "18", "16", "10"],
+            answer: "18"
+        },
+        {
+            question: "What is the average of 10, 20, 30, 40, and 50?",
+            options: ["25", "30", "35", "40"],
+            answer: "30"
+        },
+        {
+            question: "A train running at 60 km/hr crosses a pole in 30 seconds. What is the length of the train?",
+            options: ["500 meters", "600 meters", "400 meters", "300 meters"],
+            answer: "500 meters"
+        },
+        {
+            question: "If the cost price of an item is $240 and the selling price is $300, find the profit.",
+            options: ["$50", "$60", "$70", "$80"],
+            answer: "$60"
+        },
+        {
+            question: "What will be the compound interest on $5000 at 10% per annum for 2 years?",
+            options: ["$1000", "$1050", "$1100", "$1025"],
+            answer: "$1025"
+        },
+        {
+            question: "A number is divisible by both 3 and 5. Which of the following could it be?",
+            options: ["21", "30", "45", "Both B and C"],
+            answer: "Both B and C"
+        },
+        {
+            question: "Solve: 15% of 200 + 25% of 120 = ?",
+            options: ["60", "70", "80", "90"],
+            answer: "60"
+        },
+        {
+            question: "A shopkeeper allows 10% discount on the marked price. If the marked price is $500, what is the selling price?",
+            options: ["$450", "$480", "$470", "$490"],
+            answer: "$450"
         }
     ]
 };
