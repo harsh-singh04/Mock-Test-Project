@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Mock Test</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#test">Tests</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="hero-text">
+                <h1>Welcome to <span>Mock Test</span></h1>
+                <p>Practice. Improve. Succeed.</p>
+                <a href="#test" class="btn">Start Now</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="features" id="home">
+        <div class="container">
+            <h2>Why Choose Us?</h2>
+            <div class="feature-cards">
+                <div class="card">
+                    <h3>Free Tests</h3>
+                    <p>Access a wide range of free practice tests for various subjects and exams.</p>
+                </div>
+                <div class="card">
+                    <h3>Instant Results</h3>
+                    <p>Get immediate feedback and track your progress in real time.</p>
+                </div>
+                <div class="card">
+                    <h3>Expert Content</h3>
+                    <p>Questions curated by experts to match the latest exam patterns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hero-text">
+        <h1>About <span>Us</span></h1>
+        <p>Learn more about our mission and values</p>
+    </div>
+    </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>Who We Are</h2>
+                <p>
+                    Mock Test is a platform designed to help students and professionals practice, improve, and succeed
+                    in their exams.
+                    We provide high-quality practice tests, instant results, and detailed explanations to support your
+                    learning journey.
+                </p>
+                <p>
+                    Our goal is to make exam preparation accessible, effective, and engaging for everyone.
+                </p>
+            </div>
+            <div class="about-img">
+                <img src="" alt="Team working">
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-cards">
+                <div class="team-card">
+                    <img src="" alt="Team member">
+                    <h3>Harsh Pratap Singh</h3>
+                    <p></p>
+                </div>
+                <div class="team-card">
+                    <img src="https://via.placeholder.com/150" alt="Team member">
+                    <h3>Ajay Kumar</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="team-cards">
+                <div class="team-card">
+                    <img src="https://via.placeholder.com/150" alt="Team member">
+                    <h3>Amir Khan</h3>
+                    <p></p>
+                </div>
+                <div class="team-card">
+                    <img src="https://via.placeholder.com/150" alt="Team member">
+                    <h3>Abhishek Chaurvedi</h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hero-text">
+        <h1>Choose Your <span>Test</span></h1>
+        <p>Start practicing with our curated test categories</p>
+    </div>
+    </div>
+    </header>
+    <div id="quiz-tools" style="display:none;">
+        <p><strong>Time Left: <span id="timer">02:00</span></strong></p>
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+    
+    <div id="quiz-area" style="display:none;">
+        <h2 id="quiz-title"></h2>
+        <input type="text" id="user-name" placeholder="Enter your name" />
+        <div id="question-box"></div>
+        <button id="submit-btn" class="btn">Submit Test</button>
+    </div>
+    
+    <div id="review-section" style="display:none;">
+        <h2>Review Your Answers</h2>
+        <div id="review-box"></div>
+    </div>
+    
+    <div id="quiz-area" style="display:none; padding: 20px;">
+        <h2 id="quiz-title"></h2>
+        <input type="text" id="user-name" placeholder="Enter your name" required />
+        <div id="question-box"></div>
+        <button id="submit-btn" class="btn">Submit Test</button>
+    </div>
+    
+
+    <section class="test-section" id="test">
+        <div class="container">
+            <h2>Available Tests</h2>
+            <div class="test-grid">
+                <div class="test-card">
+                    <h3>General Knowledge</h3>
+                    <p>Test your knowledge on current events, history, and facts.</p>
+                    <a href="#" class="btn">Start Test</a>
+                </div>
+                <div class="test-card">
+                    <h3>Verbal Reasoning</h3>
+                    <p>Improve your grammar,comprehension, and vocabulary.</p>
+                    <a href="#" class="btn">Start Test</a>
+                </div>
+                <div class="test-card">
+                    <h3>Aptitude</h3>
+                    <p>Improve your general intelligence and thinking ability.</p>
+                    <a href="#" class="btn">Start Test</a>
+                    <div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="hero-text">
+        <h1>Contact <span>Us</span></h1>
+        <p>We're here to help. Get in touch!</p>
+    </div>
+    </div>
+    </header>
+
+    <section class="contact-section" id="contact">
+        <div class="container contact-flex">
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Email: support@mocktest.com</p>
+                <p>Phone: +91 999 666 5500</p>
+                <p>Location: Lucknow, Uttar Pradesh</p>
+            </div>
+            <form action="https://formspree.io/f/mwkjdzba" method="POST" class="contact-form">
+
+                <h2>Send Us a Message</h2>
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Mock Test. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+<script src="script.js".js></script>
